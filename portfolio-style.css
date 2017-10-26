@@ -13,8 +13,6 @@ body {
   margin: 0 auto;
   border: 1px solid #898989;
   padding: .6vw;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   display: -webkit-box;
@@ -22,7 +20,7 @@ body {
   display: flex;
 }
 .dash div {
-  width: 300px;
+  width: 500px;
   margin: .6vw;
   -webkit-box-flex: auto;
   -ms-flex: auto;
