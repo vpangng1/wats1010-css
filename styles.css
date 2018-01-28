@@ -2,5 +2,68 @@
 /* One style is provided as example. */
 
 h1 {
-    color: green;
+    font-family: Bookman Old Style;
+  font-size: 50px;
+}
+
+.poem li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.poem li::first-letter {
+  font-size: 130%;  
+  color: blue;
+}
+
+body {
+ background-image: url("images/hard-paper-texture.jpg");
+   line-height: 30px;
+  font-family: Arial;
+  margin: 20px;
+  padding: 0;
+ min-width: 1250px;
+  
+  
+  
+}
+
+img {
+   border: 2px solid #000;
+   border-radius: 25px;
+  float: right;
+  height: 750px;
+  width: 500px;
+ 
+ 
+   
+}
+
+.page-header {
+  text-align: center;
+  padding: 10px;
+}
+
+.social-links li {
+  display: inline;
+padding: 10px 10px 10px 0px;
+  
+  
+}
+
+.info-links li {
+  display: inline;
+  padding: 10px 10px 10px 0px;
+  
+}
+
+
+.citation ul {
+  margin-left: 10px;
+}
+
+.page-credits a {
+  background-color: white;
+  padding: 10px;
 }
